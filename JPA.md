@@ -1,4 +1,8 @@
-- MySQL 세팅
+### JPA란?
+자바 객체와 관계형 DB간의 매핑처리를 위한 API
+### JPA 사용이유
+자바 객체를 사용하듯 DB에 접근하여 CRUD가 가능하다
+### MySQL 세팅
   ```sql
   -- 데이터베이스 생성
   create database jpa CHARACTER SET utf8mb4;
