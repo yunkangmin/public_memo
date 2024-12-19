@@ -23,3 +23,5 @@
   - docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=1212 -d -p 3306:3306 mysql:latest
 ## 컨테이너 접속
   - docker exec -it mysql-container bash
+## mysql 접속  
+  - mysql -u root -p
