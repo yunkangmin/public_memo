@@ -2,5 +2,7 @@
 ### 2. 파일들 커밋
 ### 3. github에서 repository 생성  
 ### 4. repository 주소 복사 후 인텔리제이에서 Git > Manage Remotes 클릭 후 붙여넣고 확인 후 파일들 push
+![image](https://github.com/user-attachments/assets/e89f5ace-c069-42f0-b7a9-ad919f9d300b)
+
 
 
