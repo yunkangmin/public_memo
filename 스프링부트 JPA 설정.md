@@ -21,6 +21,8 @@ spring:
 ```
 url 부분에 jpa가 접속하고자 하는 데이터베이스 이름이다. 
 
+### 소스 참고 
+https://github.com/yunkangmin/demo/tree/master/src/main/java/com/example/boardmysql
 
 
 
