@@ -19,9 +19,9 @@
   - docker pull mysql
 ### 이미지 확인 
   - docker images
-## 컨테이너 생성 및 실행
+### 컨테이너 생성 및 실행
   - docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=1212 -d -p 3306:3306 mysql:latest
-## 컨테이너 접속
+### 컨테이너 접속
   - docker exec -it mysql-container bash
-## mysql 접속  
+### mysql 접속  
   - mysql -u root -p
