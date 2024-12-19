@@ -1,5 +1,5 @@
 ### 프로젝트 설정 참고
-https://github.com/yunkangmin/public_memo/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0.md
+https://github.com/yunkangmin/public_memo/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0.md  
 mysql driver 라이브러리도 추가해준다. 
 
 
