@@ -24,6 +24,10 @@ url 부분에 jpa가 접속하고자 하는 데이터베이스 이름이다.
 ### 소스 참고 
 https://github.com/yunkangmin/demo/tree/master/src/main/java/com/example/boardmysql
 
+### 소스 실행은 main 함수를 실행하면 된다. 
+![image](https://github.com/user-attachments/assets/a011cd95-c598-4a16-be96-560e579e3234)
+
+
 
 
 
