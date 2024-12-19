@@ -5,4 +5,4 @@ git user name not defined는 커밋 시 사용자이름과 이메일을 설정�
 ```
 git config --global user.name "test"
 git config --global user.email "test@gmail.com"
-``
+```
