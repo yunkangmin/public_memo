@@ -23,7 +23,8 @@
          - EntityManager는 DB에 가기전에 이미 조회된 값인지 영속성 컨텍스트에서 확인한다.
          - 만약 영속성 컨텍스트에 값이 있으면 DB까지 가지않고 영속성 컨텍스트에 저장된 값을 바로 리턴하고 값이 없으면 DB에서 값을 조회한 뒤 영속성 컨테스트에 저장하고 결과값을 리턴한다. 이 것을 1차캐싱이라고 한다.
        ![image](https://github.com/user-attachments/assets/5f9bb66d-3662-436c-8461-20603dd61dc3)
-
+   - 내부구조에 대해서 더 궁금하면 참고
+      - https://devraphy.tistory.com/513    
 ### MySQL 세팅
   ```sql
   -- 데이터베이스 생성
