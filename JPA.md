@@ -11,7 +11,15 @@ ORM 사용을 위한 인터페이스를 모아둔 것.
    - 테이블이 하나의 객체(엔티티)가 되어 코드 가독성이 올라감
 2. DBMS에 대한 종속성이 줄어듬
    - DBMS가 변경되더라도 소스를 변경할 필요가 없다.
-   
+### JPA 내부구조 
+   ![image](https://github.com/user-attachments/assets/9096153d-c4fb-4858-abfb-27279c598755)
+   - EntityManager
+      - JPA는 EntityManager 클래스를 통해 엔티티들을 관리
+      - 내부적으로 영속성 컨텍스트를 가지고 있다.
+         - EntityManager는 DB에 가기전에 이미 조회된 값인지 영속성 컨텍스트에서 확인한다.
+         - 만약 영속성 컨텍스트에 값이 있으면 DB까지 가지않고 영속성 컨텍스트에 저장된 값을 바로 리턴하고 값이 없으면 DB에서 값을 조회한 뒤 영속성 컨테스트에 저장하고 결과값을 리턴한다. 이 것을 1차캐싱이라고 한다.
+       ![image](https://github.com/user-attachments/assets/5f9bb66d-3662-436c-8461-20603dd61dc3)
+
 ### MySQL 세팅
   ```sql
   -- 데이터베이스 생성
