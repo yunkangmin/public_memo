@@ -1,8 +1,12 @@
 ### JPA란?
-자바 객체와 관계형 DB간의 매핑처리를 위한 API.  
-ORM 사용을 위한 인터페이스를 모아둔 것.  
-실제 사용을 위해선 JPA를 구현한 구현체를 사용해야 한다.   
-구현체는 Hibernate, OpenJPA등이 있다.   
+- 자바 객체와 관계형 DB간의 매핑처리를 위한 API.  
+- ORM 사용을 위한 인터페이스를 모아둔 것.  
+- 실제 사용을 위해선 JPA를 구현한 구현체를 사용해야 한다.   
+- 구현체는 Hibernate, OpenJPA등이 있다.
+- JPA, Hibernate, Spring Data JPA 개념도
+   ![image](https://github.com/user-attachments/assets/112689c7-cc0a-4671-afea-af8aa61a2d7f)
+   - JPA와 Hibernate는 데이터베이스 매핑을 위한 기술이고, Spring Data JPA는 JPA 사용시 발생하는 반복적 코드를 줄여주는 기술이다.  
+
 ### JPA 사용이유
 1. 자바 객체를 사용하듯 DB에 접근하여 CRUD가 가능하다.  
    - 비지니스 로직 집중
