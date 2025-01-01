@@ -13,5 +13,6 @@ https://www.zerogpt.com/grammar-checker?r=gwords&gad_source=1&gclid=EAIaIQobChMI
 7. Let's work hard.
 8. There are no meetings being held these days.
 9. I hope everything goes well in the new year.
-10. Washing sneakers is so hard.
+10. Washing sneakers is very difficult.
+
     
